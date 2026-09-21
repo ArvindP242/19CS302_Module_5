@@ -35,7 +35,6 @@ if(arr[i]%2==0)
 count++;
 printf("Total even elements: %d",count);
 }
-*/
 ```
 
 ## Output:
