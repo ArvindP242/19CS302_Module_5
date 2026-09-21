@@ -24,10 +24,14 @@ To write a C program to calculate the area of a triangle using pointer.
 int main()
 {
     float b, h, area;
+    float *p, *q;
 
-    scanf("%f %f", &b, &h);
+    p = &b;
+    q = &h;
 
-    area = 0.5 * b * h;
+    scanf("%f %f", p, q);
+
+    area = 0.5 * (*p) * (*q);
 
     printf("Area of Triangle is: %.2f", area);
 
