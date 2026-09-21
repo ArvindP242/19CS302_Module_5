@@ -36,7 +36,7 @@ scanf("%d %s %d %d",&emp[i].id,emp[i].name,&emp[i].age,&emp[i].salary);
 printf("Employee Details\n"); 
 for(i=0;i<n;i++)
 printf("%d %s %d %d\n",emp[i].id,emp[i].name,emp[i].age,emp[i].salary);}
-
+}
 ```
 
 ## Output:
